@@ -1,0 +1,57 @@
+/* Cart.css */
+
+.cart-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: #f9f9f9; /* Optional: Light background color for the cart page */
+  }
+  
+  .cart-container {
+    text-align: center;
+    background-color: white; /* White background for the cart container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow around the container */
+    width: 80%; /* Adjust width as needed */
+    max-width: 500px; /* Set a max width for the cart container */
+  }
+  
+  .cart-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .separator {
+    width: 80%;
+    margin: 0 auto 20px;
+    border-top: 2px solid #ccc;
+  }
+  
+  .cart-content {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Space between content and button */
+  }
+  
+  .btn {
+    background-color: #000; /* Black background for the button */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #333; /* Darken the button on hover */
+  }
+  
